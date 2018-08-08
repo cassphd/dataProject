@@ -1,0 +1,88 @@
+
+Variable       Obs Unique      Mean       Min       Max  Label
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CaseID        1444   1444  2514.902         5      5014  Case ID
+tm_start      1444   1440  1.77e+12  1.77e+12  1.78e+12  Interview start time (GMT)
+tm_finish     1444   1440  1.77e+12  1.77e+12  1.78e+12  Interview finish time (GMT)
+duration      1444    179   458.581         1     34597  Interview duration in minutes
+weight2       1444    759  .9999967     .0746    3.7955  Total qualified gun owners Post-Stratification weight
+ownHandguns   1444      3  1.231994        -1         2  Do you own any handguns?
+ownRifles     1444      3  1.342798        -1         2  Do you own any rifles?
+ownShotguns   1444      3  1.408587        -1         2  Do you own any shotguns?
+ownHandgun~m  1091     21  2.427131        -1       100  How many handguns do you own?
+ownRifles_~m   928     25  2.903017        -1       100  How many rifles do you own?
+ownShotgun~m   836     18  2.026316        -1       100  How many shotguns do you own?
+num_gunsOw~d  1367     44  5.242136         1       300  Data Only Variable: Records total number of guns owned (handguns+rifles+shotguns
+storagePer~n  1444      4  2.020776        -1         3  [On my person] When at home, where do you typically keep your [gun/guns]
+storageVeh~e  1444      4  2.041551        -1         3  [In my vehicle] When at home, where do you typically keep your [gun/guns]
+storageHome   1444      4  1.896122        -1         3  [In an unlocked location in my home] When at home, where do you typically keep y
+storageOut~g  1444      4  1.950139        -1         3  [In an unlocked location in a building separate from my home, like a garage, bar
+storageG~ack  1444      4  1.970914        -1         3  [In a gun rack] When at home, where do you typically keep your [gun/guns]
+storageGu~fe  1444      4  1.916205        -1         3  [Locked in a gun safe or cabinet] When at home, where do you typically keep your
+storageGu~se  1444      4   1.98615        -1         3  [Locked in a gun case] When at home, where do you typically keep your [gun/guns]
+storageOther  1444      4  1.947368        -1         3  [Other locked location] When at home, where do you typically keep your [gun/guns
+storageVeh~k   164      4  1.676829        -1         3  [In my vehicle] Does this gun have a trigger lock or other lock?/How many of the
+storageHom~k   717      4  1.612273        -1         3  [In an unlocked location in my home] Does this gun have a trigger lock or other
+storageOut~k    77      4  1.792208        -1         3  [In an unlocked location in a building separate from my home, like a garage, bar
+storageGun~n   110      4  1.881818        -1         3  [In a gun rack] Is this gun locked into the rack?/How many of these guns are loc
+storageG~ock   110      4  1.818182        -1         3  [In a gun rack] Does this gun have a trigger lock or other lock?/How many of the
+storageOth~k   167      4  1.796407        -1         3  [Other locked location] Does this gun have a trigger lock or other lock?/How man
+disassembled  1444      4  1.943213        -1         3  [Disassembled?] When you store your {gun/guns} at home, {how many are/is it} typ
+assembledU~d  1444      4  1.730609        -1         3  [Assembled but unloaded?] When you store your {gun/guns} at home, {how many are/
+loadedUnch~d  1444      4  2.080332        -1         3  [Loaded but unchambered?] When you store your {gun/guns} at home, {how many are/
+loadedCham~d  1444      4  2.032548        -1         3  [Loaded and chambered?] When you store your {gun/guns} at home, {how many are/is
+ammoLocked    1444      3  1.202216        -1         2  [Locked gun safe or other locked location] When you store your {gun/guns} at hom
+ammoUnlock~e  1444      3  1.840028        -1         2  [Unlocked location, but physically separate from guns] When you store your {gun/
+ammoUnlock~r  1444      3  1.848338        -1         2  [Unlocked location, same physical location as gun] When you store your {gun/guns
+gunCourse     1444      2  .3580332         0         1  [Gun safety training course] Gun safety training course
+militaryTr~g  1444      2  .1980609         0         1  [Military training] Military training
+familyDisc~s  1444      2  .3026316         0         1  [Family discussions] Family discussions
+friendDisc~s  1444      2  .1648199         0         1  [Discussions with friends, work colleagues, or other acquaintances] Discussions
+rangeTrain~g  1444      2  .2070637         0         1  [Training at firing range] Training at firing range
+onlineInfo    1444      2  .0512465         0         1  [Online information] Online information
+familyTrai~g  1444      2  .2583102         0         1  [Training from a family member] Training from a family member
+friendTrai~g  1444      2  .1024931         0         1  [Training from a friend, work colleague, or other acquaintance] Training from a
+socialMedia   1444      2  .0367036         0         1  [Social media] Social media
+homeDefense   1444      2  .4542936         0         1  [Concerns about home defense] Concerns about home defense
+gunshopInfo   1444      2  .0921053         0         1  [Information provided by gun shops/dealers] Information provided by gun shops/de
+storageImp~t  1184     13  6.258446         1        99  Which of the following has had the most influence over the way you store your gu
+messengerF~y  1444      6  2.101801        -1         5  [Family members] How good or poor do you think the following groups would be as
+messengerF~d  1444      6  2.327562        -1         5  [Friends, co-workers, or other people you know well] How good or poor do you thi
+messengerA~e  1444      6  3.201524        -1         5  [Casual acquaintances or someone you do not know well] How good or poor do you t
+messenge~rgs  1444      6  1.873961        -1         5  [Hunting and outdoors organizations] How good or poor do you think the following
+messenge~ags  1444      6  2.135734        -1         5  [Hunting and outdoors magazines] How good or poor do you think the following gro
+messengerP~s  1444      6  3.168975        -1         5  [Physicians] How good or poor do you think the following groups would be as mess
+messengerP~e  1444      6  1.696676        -1         5  [Law enforcement] How good or poor do you think the following groups would be as
+messengerV~s  1444      6  1.824792        -1         5  [Military veterans] How good or poor do you think the following groups would be
+messengerA~y  1444      6  1.786011        -1         5  [Active-duty military] How good or poor do you think the following groups would
+messengerC~s  1444      6    3.6759        -1         5  [Celebrities] How good or poor do you think the following groups would be as mes
+messenge~ler  1444      6  2.117729        -1         5  [Gun dealers] How good or poor do you think the following groups would be as mes
+messenge~ger  1444      6  2.481302        -1         5  [Gun show managers] How good or poor do you think the following groups would be
+messengerNRA  1444      6  1.889197        -1         5  [The National Rifle Association] How good or poor do you think the following gro
+age_4categ~s  1444      4  2.980609         1         4  Age - 4 Categories
+education_~s  1444      4  2.975762         1         4  Education (Categorical)
+race_ethni~y  1444      5  1.553324         1         5  Race / Ethnicity
+gender        1444      2  1.313019         1         2  Gender
+household_~d  1444      2  .8857341         0         1  Household Head
+household~ze  1444     10  2.625346         1        10  Household Size
+housing_type  1444      5  1.351801         1         5  Housing Type
+household~me  1444     19  12.88435         1        19  Household Income
+marital_st~s  1444      6  1.916205         1         6  Marital Status
+MSA_catego~s  1444      2  .8040166         0         1  MSA Status
+region_cat~s  1444      9  5.723684         1         9  Region 9 - Based on State of Residence
+state_resi~e  1444     49  61.08518        11        94  State
+children_1~r  1444      3  .0353186         0         2  Presence of Household Members - Children 0-1
+children_2~s  1444      4  .1121884         0         3  Presence of Household Members - Children 2-5
+children_6~s  1444      5  .1842105         0         4  Presence of Household Members - Children 6-12
+children_1~s  1444      4  .1578947         0         3  Presence of Household Members - Children 13-17
+employment~s  1444      7   2.91205         1         7  Current Employment Status
+military_v~n  1382      2  1.736614         1         2  Q250: Did you ever serve on active duty in the U.S. Armed Forces?
+mil_vet       1444      2  .2520776         0         1  did you serve active duty military - recoded
+anychild      1444      2   .265928         0         1  any children in the home
+youngchild    1444      2  .1945983         0         1  young children in the home
+teenchild     1444      2  .1239612         0         1  teen children in the home
+num_gunsOw~t  1444      3  1.105956         0         2  categorical variable for number of guns owned
+handgun_only  1444      2  .2188366         0         1  indicator for whether respondent only owns handguns
+income        1444      3         1         0         2  categorical income variable
+safestorage   1444      2  .4445983         0         1  indicator for whether respondent stores all guns safely at home
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,1972 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\ckercher\Desktop\data project\safe storage output.log
+  log type:  text
+ opened on:   8 Aug 2018, 15:03:22
+
+. 
+. set more off
+
+. 
+. 
+. 
+. ****
+. 
+. 
+.                 ****** TABLE 1 ******
+. 
+. *where guns are stored*
+. foreach v of varlist storagePerson storageVehicle storageVehicle_triggerlock ///
+>         storageHome storageHome_triggerlock storageOutbuilding                                  ///
+>         storageOutbuilding_triggerlock storageGunrack storageGunrack_lockedin   ///
+>         storageGunrack_triggerlock storageGunsafe storageGuncase storageOther   ///
+>         storageOther_triggerlock {
+  2.                         svy: tab `v'
+  3.                         }       
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[On my    |
+person]   |
+When at   |
+home,     |
+where do  |
+you       |
+typically |
+keep your |
+[gun/guns |
+]         | proportion
+----------+-----------
+  Refused |      .0299
+  Yes/All |      .0101
+ No/No Gu |       .855
+ Some Gun |      .1049
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[In my    |
+vehicle]  |
+When at   |
+home,     |
+where do  |
+you       |
+typically |
+keep your |
+[gun/guns |
+]         | proportion
+----------+-----------
+  Refused |      .0251
+  Yes/All |      .0024
+ No/No Gu |      .8623
+ Some Gun |      .1101
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =        164
+Number of PSUs     =       164                  Population size   =   162.4686
+                                                Design df         =        163
+
+----------------------
+[In my    |
+vehicle]  |
+Does this |
+gun have  |
+a trigger |
+lock or   |
+other     |
+lock?/How |
+many of   |
+the       | proportion
+----------+-----------
+  Refused |      .0888
+  Yes/All |      .2236
+ No/No Gu |      .5404
+ Some Gun |      .1472
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[In an    |
+unlocked  |
+location  |
+in my     |
+home]     |
+When at   |
+home,     |
+where do  |
+you       |
+typically |
+keep y    | proportion
+----------+-----------
+  Refused |      .0246
+  Yes/All |      .2344
+ No/No Gu |      .5257
+ Some Gun |      .2152
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =        717
+Number of PSUs     =       717                  Population size   =   649.2361
+                                                Design df         =        716
+
+----------------------
+[In an    |
+unlocked  |
+location  |
+in my     |
+home]     |
+Does this |
+gun have  |
+a trigger |
+lock or   |
+other     | proportion
+----------+-----------
+  Refused |      .1002
+  Yes/All |      .2314
+ No/No Gu |      .5605
+ Some Gun |       .108
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[In an    |
+unlocked  |
+location  |
+in a      |
+building  |
+separate  |
+from my   |
+home,     |
+like a    |
+garage,   |
+bar       | proportion
+----------+-----------
+  Refused |      .0308
+  Yes/All |      .0133
+ No/No Gu |      .9101
+ Some Gun |      .0458
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =         77
+Number of PSUs     =        77                  Population size   =    85.3156
+                                                Design df         =         76
+
+----------------------
+[In an    |
+unlocked  |
+location  |
+in a      |
+building  |
+separate  |
+from my   |
+home,     |
+like a    |
+garage,   |
+bar       | proportion
+----------+-----------
+  Refused |      .0732
+  Yes/All |       .243
+ No/No Gu |      .3737
+ Some Gun |      .3102
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[In a gun |
+rack]     |
+When at   |
+home,     |
+where do  |
+you       |
+typically |
+keep your |
+[gun/guns |
+]         | proportion
+----------+-----------
+  Refused |      .0323
+  Yes/All |      .0143
+ No/No Gu |      .8828
+ Some Gun |      .0705
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =        110
+Number of PSUs     =       110                  Population size   =   122.5056
+                                                Design df         =        109
+
+----------------------
+[In a gun |
+rack] Is  |
+this gun  |
+locked    |
+into the  |
+rack?/How |
+many of   |
+these     |
+guns are  |
+loc       | proportion
+----------+-----------
+  Refused |      .0704
+  Yes/All |      .2226
+ No/No Gu |      .4272
+ Some Gun |      .2798
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =        110
+Number of PSUs     =       110                  Population size   =   122.5056
+                                                Design df         =        109
+
+----------------------
+[In a gun |
+rack]     |
+Does this |
+gun have  |
+a trigger |
+lock or   |
+other     |
+lock?/How |
+many of   |
+the       | proportion
+----------+-----------
+  Refused |      .0706
+  Yes/All |      .2692
+ No/No Gu |      .4729
+ Some Gun |      .1873
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Locked   |
+in a gun  |
+safe or   |
+cabinet]  |
+When at   |
+home,     |
+where do  |
+you       |
+typically |
+keep your | proportion
+----------+-----------
+  Refused |      .0297
+  Yes/All |      .2258
+ No/No Gu |      .5456
+ Some Gun |      .1989
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Locked   |
+in a gun  |
+case]     |
+When at   |
+home,     |
+where do  |
+you       |
+typically |
+keep your |
+[gun/guns |
+]         | proportion
+----------+-----------
+  Refused |      .0259
+  Yes/All |      .0594
+ No/No Gu |      .8005
+ Some Gun |      .1143
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Other    |
+locked    |
+location] |
+When at   |
+home,     |
+where do  |
+you       |
+typically |
+keep your |
+[gun/guns | proportion
+----------+-----------
+  Refused |      .0297
+  Yes/All |      .0482
+ No/No Gu |      .8549
+ Some Gun |      .0672
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =        167
+Number of PSUs     =       167                  Population size   =   166.6328
+                                                Design df         =        166
+
+----------------------
+[Other    |
+locked    |
+location] |
+Does this |
+gun have  |
+a trigger |
+lock or   |
+other     |
+lock?/How |
+man       | proportion
+----------+-----------
+  Refused |       .077
+  Yes/All |      .2233
+ No/No Gu |      .4802
+ Some Gun |      .2194
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+
+.                 
+. 
+. *how guns are stored*
+. foreach v of varlist disassembled assembledUnloaded loadedUnchambered           ///
+>         loadedChambered {
+  2.                         svy: tab `v'
+  3.                         }
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Disassem |
+bled?]    |
+When you  |
+store     |
+your      |
+{gun/guns |
+} at      |
+home,     |
+{how many |
+are/is    |
+it} typ   | proportion
+----------+-----------
+  Refused |      .0295
+  Yes/All |      .0412
+ No/No Gu |      .8566
+ Some Gun |      .0726
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Assemble |
+d but     |
+unloaded? |
+] When    |
+you store |
+your      |
+{gun/guns |
+} at      |
+home,     |
+{how many |
+are/      | proportion
+----------+-----------
+  Refused |      .0276
+  Yes/All |      .4411
+ No/No Gu |       .279
+ Some Gun |      .2524
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Loaded   |
+but       |
+unchamber |
+ed?] When |
+you store |
+your      |
+{gun/guns |
+} at      |
+home,     |
+{how many |
+are/      | proportion
+----------+-----------
+  Refused |      .0251
+  Yes/All |      .0753
+ No/No Gu |      .6724
+ Some Gun |      .2273
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Loaded   |
+and       |
+chambered |
+?] When   |
+you store |
+your      |
+{gun/guns |
+} at      |
+home,     |
+{how many |
+are/is    | proportion
+----------+-----------
+  Refused |      .0267
+  Yes/All |      .0688
+ No/No Gu |      .7463
+ Some Gun |      .1581
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+
+.         
+. 
+. *Where ammunition is stored*
+. foreach v of varlist ammoLocked ammoUnlocked_separate ammoUnlocked_together {
+  2.                         svy: tab `v'
+  3.                         }
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Locked   |
+gun safe  |
+or other  |
+locked    |
+location] |
+When you  |
+store     |
+your      |
+{gun/guns |
+} at hom  | proportion
+----------+-----------
+  Refused |      .0355
+  Yes/All |      .7024
+ No/No Gu |      .2621
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Unlocked |
+location, |
+but       |
+physicall |
+y         |
+separate  |
+from      |
+guns]     |
+When you  |
+store     |
+your      |
+{gun/     | proportion
+----------+-----------
+  Refused |      .0301
+  Yes/All |      .0873
+ No/No Gu |      .8826
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Unlocked |
+location, |
+same      |
+physical  |
+location  |
+as gun]   |
+When you  |
+store     |
+your      |
+{gun/guns | proportion
+----------+-----------
+  Refused |      .0325
+  Yes/All |      .0736
+ No/No Gu |      .8939
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+
+. 
+.                 
+.                 ****** TABLE 2 ******
+. 
+. foreach v of varlist gunCourse militaryTraining familyDiscuss friendDiscuss     ///
+>         rangeTraining onlineInfo familyTraining friendTraining socialMedia              ///
+>         homeDefense gunshopInfo storageImportant {
+  2.                         svy: tab `v'
+  3.                         }               
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Gun      |
+safety    |
+training  |
+course]   |
+Gun       |
+safety    |
+training  |
+course    | proportion
+----------+-----------
+       No |      .6534
+      Yes |      .3466
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Military |
+training] |
+Military  |
+training  | proportion
+----------+-----------
+       No |      .8334
+      Yes |      .1666
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Family   |
+discussio |
+ns]       |
+Family    |
+discussio |
+ns        | proportion
+----------+-----------
+       No |      .6994
+      Yes |      .3006
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Discussi |
+ons with  |
+friends,  |
+work      |
+colleague |
+s, or     |
+other     |
+acquainta |
+nces]     |
+Discussio |
+ns        | proportion
+----------+-----------
+       No |      .8382
+      Yes |      .1618
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Training |
+at firing |
+range]    |
+Training  |
+at firing |
+range     | proportion
+----------+-----------
+       No |      .8075
+      Yes |      .1925
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Online   |
+informati |
+on]       |
+Online    |
+informati |
+on        | proportion
+----------+-----------
+       No |      .9456
+      Yes |      .0544
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Training |
+from a    |
+family    |
+member]   |
+Training  |
+from a    |
+family    |
+member    | proportion
+----------+-----------
+       No |      .7369
+      Yes |      .2631
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Training |
+from a    |
+friend,   |
+work      |
+colleague |
+, or      |
+other     |
+acquainta |
+nce]      |
+Training  |
+from a    | proportion
+----------+-----------
+       No |      .8982
+      Yes |      .1018
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Social   |
+media]    |
+Social    |
+media     | proportion
+----------+-----------
+       No |      .9608
+      Yes |      .0392
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Concerns |
+about     |
+home      |
+defense]  |
+Concerns  |
+about     |
+home      |
+defense   | proportion
+----------+-----------
+       No |      .5712
+      Yes |      .4288
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Informat |
+ion       |
+provided  |
+by gun    |
+shops/dea |
+lers]     |
+Informati |
+on        |
+provided  |
+by gun    |
+shops/de  | proportion
+----------+-----------
+       No |      .9046
+      Yes |      .0954
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,184
+Number of PSUs     =     1,184                  Population size   = 1,161.3564
+                                                Design df         =      1,183
+
+----------------------
+Which of  |
+the       |
+following |
+has had   |
+the most  |
+influence |
+over the  |
+way you   |
+store     |
+your gu   | proportion
+----------+-----------
+ Gun safe |      .1752
+ Military |      .0903
+ Family d |      .1225
+ Discussi |       .026
+ Training |      .0251
+ Online i |      .0047
+ Training |      .1513
+ Training |      .0133
+ Social m |      .0047
+ Concerns |      .2941
+ Informat |      .0175
+  None of |      .0731
+       99 |      .0023
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+
+.                 
+. 
+.                 ****** TABLE 3 ******
+.         *combined excellent/good & poor/very poor*
+. 
+. foreach v of varlist messengerFamily messengerFriend messengerAquaintance       ///
+>         messengerHuntorgs messengerHuntmags messengerPhysicians messengerPolice ///
+>         messengerVeterans messengerActivemilitary messengerCelebrities                  ///
+>         messengerGundealer messengerGunshowmanager messengerNRA {
+  2.                         svy: tab `v'
+  3.                         }               
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Family   |
+members]  |
+How good  |
+or poor   |
+do you    |
+think the |
+following |
+groups    |
+would be  |
+as        | proportion
+----------+-----------
+  Refused |      .0287
+ Excellen |      .2767
+ Good Mes |      .3297
+  Neither |      .2979
+ Poor Mes |      .0464
+ Very Poo |      .0206
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Friends, |
+co-worker |
+s, or     |
+other     |
+people    |
+you know  |
+well] How |
+good or   |
+poor do   |
+you thi   | proportion
+----------+-----------
+  Refused |      .0269
+ Excellen |       .171
+ Good Mes |      .3511
+  Neither |      .3733
+ Poor Mes |      .0528
+ Very Poo |      .0249
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Casual   |
+acquainta |
+nces or   |
+someone   |
+you do    |
+not know  |
+well] How |
+good or   |
+poor do   |
+you t     | proportion
+----------+-----------
+  Refused |      .0276
+ Excellen |      .0522
+ Good Mes |      .1016
+  Neither |       .506
+ Poor Mes |      .2061
+ Very Poo |      .1065
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Hunting  |
+and       |
+outdoors  |
+organizat |
+ions] How |
+good or   |
+poor do   |
+you think |
+the       |
+following | proportion
+----------+-----------
+  Refused |      .0264
+ Excellen |      .3219
+ Good Mes |      .4153
+  Neither |      .2035
+ Poor Mes |      .0221
+ Very Poo |      .0109
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Hunting  |
+and       |
+outdoors  |
+magazines |
+] How     |
+good or   |
+poor do   |
+you think |
+the       |
+following |
+gro       | proportion
+----------+-----------
+  Refused |      .0315
+ Excellen |      .2304
+ Good Mes |      .3785
+  Neither |      .2858
+ Poor Mes |      .0513
+ Very Poo |      .0225
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Physicia |
+ns] How   |
+good or   |
+poor do   |
+you think |
+the       |
+following |
+groups    |
+would be  |
+as mess   | proportion
+----------+-----------
+  Refused |      .0312
+ Excellen |      .0652
+ Good Mes |      .1232
+  Neither |      .4562
+ Poor Mes |       .185
+ Very Poo |      .1392
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Law      |
+enforceme |
+nt] How   |
+good or   |
+poor do   |
+you think |
+the       |
+following |
+groups    |
+would be  |
+as        | proportion
+----------+-----------
+  Refused |      .0287
+ Excellen |      .4511
+ Good Mes |      .3188
+  Neither |      .1688
+ Poor Mes |      .0197
+ Very Poo |       .013
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Military |
+veterans] |
+How good  |
+or poor   |
+do you    |
+think the |
+following |
+groups    |
+would be  | proportion
+----------+-----------
+  Refused |       .028
+ Excellen |      .3821
+ Good Mes |      .3376
+  Neither |      .2251
+ Poor Mes |      .0223
+ Very Poo |       .005
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Active-d |
+uty       |
+military] |
+How good  |
+or poor   |
+do you    |
+think the |
+following |
+groups    |
+would     | proportion
+----------+-----------
+  Refused |       .028
+ Excellen |      .4085
+ Good Mes |      .3226
+  Neither |      .2099
+ Poor Mes |       .022
+ Very Poo |       .009
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Celebrit |
+ies] How  |
+good or   |
+poor do   |
+you think |
+the       |
+following |
+groups    |
+would be  |
+as mes    | proportion
+----------+-----------
+  Refused |      .0284
+ Excellen |      .0366
+ Good Mes |      .0688
+  Neither |      .3427
+ Poor Mes |      .2138
+ Very Poo |      .3097
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Gun      |
+dealers]  |
+How good  |
+or poor   |
+do you    |
+think the |
+following |
+groups    |
+would be  |
+as mes    | proportion
+----------+-----------
+  Refused |      .0283
+ Excellen |      .2464
+ Good Mes |      .3746
+  Neither |      .2879
+ Poor Mes |      .0427
+ Very Poo |        .02
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Gun show |
+managers] |
+How good  |
+or poor   |
+do you    |
+think the |
+following |
+groups    |
+would be  | proportion
+----------+-----------
+  Refused |      .0274
+ Excellen |      .1704
+ Good Mes |      .2845
+  Neither |      .4015
+ Poor Mes |      .0705
+ Very Poo |      .0458
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[The      |
+National  |
+Rifle     |
+Associati |
+on] How   |
+good or   |
+poor do   |
+you think |
+the       |
+following |
+gro       | proportion
+----------+-----------
+  Refused |      .0279
+ Excellen |      .4137
+ Good Mes |      .2978
+  Neither |      .1868
+ Poor Mes |      .0298
+ Very Poo |      .0439
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+
+.                                 
+.                 
+.                 ****** TABLE 4 ******
+. 
+. **descriptive demographics**
+. foreach v of varlist anychild handgun_only num_gunsOwnedCat gunCourse           ///
+>         familyDiscuss homeDefense region_categories age_4categories                     ///
+>         education_categories marital_status income race_ethnicity gender                ///
+>         MSA_categories mil_vet safestorage {
+  2.                         svy: tab `v'
+  3.                         }
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+any       |
+children  |
+in the    |
+home      | proportion
+----------+-----------
+        0 |      .7077
+        1 |      .2923
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+indicator |
+for       |
+whether   |
+responden |
+t only    |
+owns      |
+handguns  | proportion
+----------+-----------
+        0 |      .7798
+        1 |      .2202
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+categoric |
+al        |
+variable  |
+for       |
+number of |
+guns      |
+owned     | proportion
+----------+-----------
+    1 gun |      .2535
+ 2-4 guns |      .4051
+ 5 or mor |      .3414
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Gun      |
+safety    |
+training  |
+course]   |
+Gun       |
+safety    |
+training  |
+course    | proportion
+----------+-----------
+       No |      .6534
+      Yes |      .3466
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Family   |
+discussio |
+ns]       |
+Family    |
+discussio |
+ns        | proportion
+----------+-----------
+       No |      .6994
+      Yes |      .3006
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+[Concerns |
+about     |
+home      |
+defense]  |
+Concerns  |
+about     |
+home      |
+defense   | proportion
+----------+-----------
+       No |      .5712
+      Yes |      .4288
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+Region 9  |
+- Based   |
+on State  |
+of        |
+Residence | proportion
+----------+-----------
+ New Engl |      .0266
+ Mid-Atla |      .1035
+ East-Nor |      .1443
+ West-Nor |       .088
+ South At |      .1976
+ East-Sou |      .0814
+ West-Sou |      .1366
+ Mountain |      .0874
+  Pacific |      .1347
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+Age - 4   |
+Categorie |
+s         | proportion
+----------+-----------
+    18-29 |      .1517
+    30-44 |      .2527
+    45-59 |      .2886
+      60+ |      .3071
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+Education |
+(Categori |
+cal)      | proportion
+----------+-----------
+ Less tha |      .1083
+ High sch |      .3109
+ Some col |      .3063
+ Bachelor |      .2745
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+Marital   |
+Status    | proportion
+----------+-----------
+  Married |      .6448
+  Widowed |      .0475
+ Divorced |      .1043
+ Separate |      .0129
+ Never ma |      .1429
+ Living w |      .0475
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+categoric |
+al income |
+variable  | proportion
+----------+-----------
+ Less tha |      .3186
+ 50,000 t |      .3784
+ $100,000 |       .303
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+Race /    |
+Ethnicity | proportion
+----------+-----------
+ White, N |      .7621
+ Black, N |       .065
+ Other, N |      .0399
+ Hispanic |      .1194
+ 2+ Races |      .0135
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+   Gender | proportion
+----------+-----------
+     Male |      .6574
+   Female |      .3426
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+MSA       |
+Status    | proportion
+----------+-----------
+ Non-Metr |      .2272
+    Metro |      .7728
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+did you   |
+serve     |
+active    |
+duty      |
+military  |
+- recoded | proportion
+----------+-----------
+       No |      .7774
+      Yes |      .2226
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+(running tabulate on estimation sample)
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+
+----------------------
+indicator |
+for       |
+whether   |
+responden |
+t stores  |
+all guns  |
+safely at |
+home      | proportion
+----------+-----------
+        0 |      .5337
+        1 |      .4663
+          | 
+    Total |          1
+----------------------
+  Key:  proportion  =  cell proportion
+
+.                 
+. **simple logistic regression**  
+.         
+. foreach x in anychild handgun_only i.num_gunsOwnedCat gunCourse                                 ///
+>         familyDiscuss homeDefense i.region_categories i.age_4categories                         ///
+>         i.education_categories i.marital_status i.income i.race_ethnicity i.gender  ///
+>         i.MSA_categories mil_vet {
+  2.                         svy: logistic safestorage `x'
+  3.                         }
+(running logistic on estimation sample)
+
+Survey: Logistic regression
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+                                                F(   1,   1443)   =      11.20
+                                                Prob > F          =     0.0008
+
+------------------------------------------------------------------------------
+             |             Linearized
+ safestorage | Odds Ratio   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+    anychild |   1.611745   .2299225     3.35   0.001     1.218335     2.13219
+       _cons |   .7591811   .0566887    -3.69   0.000     .6557406    .8789389
+------------------------------------------------------------------------------
+(running logistic on estimation sample)
+
+Survey: Logistic regression
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+                                                F(   1,   1443)   =      23.72
+                                                Prob > F          =     0.0000
+
+------------------------------------------------------------------------------
+             |             Linearized
+ safestorage | Odds Ratio   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+handgun_only |   2.143432   .3355689     4.87   0.000     1.576654    2.913956
+       _cons |   .7386424   .0531948    -4.21   0.000     .6413302    .8507201
+------------------------------------------------------------------------------
+(running logistic on estimation sample)
+
+Survey: Logistic regression
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+                                                F(   2,   1442)   =      15.70
+                                                Prob > F          =     0.0000
+
+----------------------------------------------------------------------------------
+                 |             Linearized
+     safestorage | Odds Ratio   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-----------------+----------------------------------------------------------------
+num_gunsOwnedCat |
+       2-4 guns  |   .6206724   .1012853    -2.92   0.004      .450652    .8548374
+ 5 or more guns  |   .3838836   .0659614    -5.57   0.000     .2740424    .5377511
+                 |
+           _cons |   1.463619   .1916223     2.91   0.004     1.132119    1.892187
+----------------------------------------------------------------------------------
+(running logistic on estimation sample)
+
+Survey: Logistic regression
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+                                                F(   1,   1443)   =      17.15
+                                                Prob > F          =     0.0000
+
+------------------------------------------------------------------------------
+             |             Linearized
+ safestorage | Odds Ratio   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+   gunCourse |   1.730355   .2290993     4.14   0.000      1.33457    2.243515
+       _cons |   .7213675   .0577268    -4.08   0.000     .6165705    .8439766
+------------------------------------------------------------------------------
+(running logistic on estimation sample)
+
+Survey: Logistic regression
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+                                                F(   1,   1443)   =       7.95
+                                                Prob > F          =     0.0049
+
+-------------------------------------------------------------------------------
+              |             Linearized
+  safestorage | Odds Ratio   Std. Err.      t    P>|t|     [95% Conf. Interval]
+--------------+----------------------------------------------------------------
+familyDiscuss |   1.471455   .2016054     2.82   0.005      1.12467    1.925168
+        _cons |   .7772711   .0592041    -3.31   0.001     .6693955    .9025312
+-------------------------------------------------------------------------------
+(running logistic on estimation sample)
+
+Survey: Logistic regression
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+                                                F(   1,   1443)   =       5.24
+                                                Prob > F          =     0.0223
+
+------------------------------------------------------------------------------
+             |             Linearized
+ safestorage | Odds Ratio   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+ homeDefense |   .7459878   .0955323    -2.29   0.022     .5802753    .9590239
+       _cons |   .9897447   .0840489    -0.12   0.903     .8378739    1.169143
+------------------------------------------------------------------------------
+(running logistic on estimation sample)
+
+Survey: Logistic regression
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+                                                F(   8,   1436)   =       1.08
+                                                Prob > F          =     0.3776
+
+-------------------------------------------------------------------------------------
+                    |             Linearized
+        safestorage | Odds Ratio   Std. Err.      t    P>|t|     [95% Conf. Interval]
+--------------------+----------------------------------------------------------------
+  region_categories |
+      Mid-Atlantic  |   .6688624   .2930197    -0.92   0.359     .2832199     1.57961
+East-North Central  |   .5567444   .2353995    -1.39   0.166     .2429145    1.276022
+West-North Central  |    .660092   .2919547    -0.94   0.348     .2772089    1.571817
+    South Atlantic  |    .560095   .2335175    -1.39   0.165     .2472161    1.268956
+East-South Central  |   .4376895   .2001133    -1.81   0.071     .1785117    1.073163
+West-South Central  |   .5974065   .2467336    -1.25   0.212     .2657186     1.34313
+          Mountain  |   .6595226   .2971511    -0.92   0.356     .2725177    1.596117
+           Pacific  |    .891559   .3857995    -0.27   0.791     .3815093    2.083508
+                    |
+              _cons |   1.391645   .5424569     0.85   0.397     .6478215     2.98952
+-------------------------------------------------------------------------------------
+(running logistic on estimation sample)
+
+Survey: Logistic regression
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+                                                F(   3,   1441)   =       4.58
+                                                Prob > F          =     0.0034
+
+---------------------------------------------------------------------------------
+                |             Linearized
+    safestorage | Odds Ratio   Std. Err.      t    P>|t|     [95% Conf. Interval]
+----------------+----------------------------------------------------------------
+age_4categories |
+         30-44  |   1.087187    .247865     0.37   0.714      .695149    1.700319
+         45-59  |   1.015316   .2179925     0.07   0.944     .6663327    1.547074
+           60+  |   .6373584   .1351387    -2.12   0.034     .4204868    .9660842
+                |
+          _cons |   .9754389   .1789297    -0.14   0.892     .6806577    1.397885
+---------------------------------------------------------------------------------
+(running logistic on estimation sample)
+
+Survey: Logistic regression
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+                                                F(   3,   1441)   =       1.50
+                                                Prob > F          =     0.2116
+
+----------------------------------------------------------------------------------------------
+                             |             Linearized
+                 safestorage | Odds Ratio   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-----------------------------+----------------------------------------------------------------
+        education_categories |
+                High school  |   1.408048     .37299     1.29   0.197     .8374256    2.367494
+               Some college  |   1.368332   .3571078     1.20   0.230     .8200839      2.2831
+Bachelor's degree or higher  |   1.676125   .4386203     1.97   0.049     1.003162    2.800541
+                             |
+                       _cons |   .6185473   .1468483    -2.02   0.043     .3882584    .9854281
+----------------------------------------------------------------------------------------------
+(running logistic on estimation sample)
+
+Survey: Logistic regression
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+                                                F(   5,   1439)   =       0.29
+                                                Prob > F          =     0.9179
+
+--------------------------------------------------------------------------------------
+                     |             Linearized
+         safestorage | Odds Ratio   Std. Err.      t    P>|t|     [95% Conf. Interval]
+---------------------+----------------------------------------------------------------
+      marital_status |
+            Widowed  |   .8390637   .2674095    -0.55   0.582     .4490444    1.567836
+           Divorced  |    .925673   .1986883    -0.36   0.719      .607576     1.41031
+          Separated  |   .8742661   .5488558    -0.21   0.831     .2551638    2.995493
+      Never married  |   1.029469   .2034441     0.15   0.883     .6986458    1.516943
+Living with partner  |   1.338618   .4195799     0.93   0.352     .7238192    2.475617
+                     |
+               _cons |   .8735267   .0662839    -1.78   0.075     .7527177    1.013725
+--------------------------------------------------------------------------------------
+(running logistic on estimation sample)
+
+Survey: Logistic regression
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+                                                F(   2,   1442)   =       0.77
+                                                Prob > F          =     0.4609
+
+------------------------------------------------------------------------------------
+                   |             Linearized
+       safestorage | Odds Ratio   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------------+----------------------------------------------------------------
+            income |
+50,000 to $99,999  |   1.161493   .1798588     0.97   0.334      .857228    1.573755
+ $100,000 or more  |    1.20947   .1942519     1.18   0.237      .882612    1.657374
+                   |
+             _cons |   .7790252   .0905298    -2.15   0.032     .6202276    .9784799
+------------------------------------------------------------------------------------
+(running logistic on estimation sample)
+
+Survey: Logistic regression
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+                                                F(   4,   1440)   =       0.06
+                                                Prob > F          =     0.9937
+
+-----------------------------------------------------------------------------------------
+                        |             Linearized
+            safestorage | Odds Ratio   Std. Err.      t    P>|t|     [95% Conf. Interval]
+------------------------+----------------------------------------------------------------
+         race_ethnicity |
+   Black, Non-Hispanic  |   1.076259   .3011999     0.26   0.793     .6215862    1.863514
+   Other, Non-Hispanic  |   1.055389   .4423396     0.13   0.898      .463824    2.401439
+              Hispanic  |   .9535629   .2173746    -0.21   0.835     .6097421    1.491257
+2+ Races, Non-Hispanic  |   1.111222    .375903     0.31   0.755     .5722896    2.157676
+                        |
+                  _cons |   .8711846   .0596911    -2.01   0.044     .7616216    .9965087
+-----------------------------------------------------------------------------------------
+(running logistic on estimation sample)
+
+Survey: Logistic regression
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+                                                F(   1,   1443)   =      11.48
+                                                Prob > F          =     0.0007
+
+------------------------------------------------------------------------------
+             |             Linearized
+ safestorage | Odds Ratio   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+      gender |
+     Female  |   1.589388   .2173367     3.39   0.001     1.215449     2.07837
+       _cons |   .7445339   .0577198    -3.81   0.000     .6394991    .8668202
+------------------------------------------------------------------------------
+(running logistic on estimation sample)
+
+Survey: Logistic regression
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+                                                F(   1,   1443)   =       0.00
+                                                Prob > F          =     0.9690
+
+--------------------------------------------------------------------------------
+               |             Linearized
+   safestorage | Odds Ratio   Std. Err.      t    P>|t|     [95% Conf. Interval]
+---------------+----------------------------------------------------------------
+MSA_categories |
+        Metro  |   .9940388    .152982    -0.04   0.969     .7350112    1.344351
+         _cons |   .8775888   .1196603    -0.96   0.338     .6716319    1.146703
+--------------------------------------------------------------------------------
+(running logistic on estimation sample)
+
+Survey: Logistic regression
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+                                                F(   1,   1443)   =      10.03
+                                                Prob > F          =     0.0016
+
+------------------------------------------------------------------------------
+             |             Linearized
+ safestorage | Odds Ratio   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+     mil_vet |    .614862   .0944473    -3.17   0.002     .4549012    .8310712
+       _cons |   .9712228   .0700435    -0.40   0.686     .8431011    1.118814
+------------------------------------------------------------------------------
+
+. 
+. **multiple logistic regression**
+. 
+. svy: logistic safestorage anychild handgun_only i.num_gunsOwnedCat gunCourse    ///
+>         familyDiscuss homeDefense i.region_categories i.age_4categories                         ///
+>         i.education_categories i.marital_status i.income i.race_ethnicity i.gender  ///
+>         i.MSA_categories mil_vet
+(running logistic on estimation sample)
+
+Survey: Logistic regression
+
+Number of strata   =         1                  Number of obs     =      1,444
+Number of PSUs     =     1,444                  Population size   = 1,443.9953
+                                                Design df         =      1,443
+                                                F(  35,   1409)   =       3.10
+                                                Prob > F          =     0.0000
+
+----------------------------------------------------------------------------------------------
+                             |             Linearized
+                 safestorage | Odds Ratio   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-----------------------------+----------------------------------------------------------------
+                    anychild |   1.443979   .2511072     2.11   0.035     1.026628    2.030994
+                handgun_only |   1.842855   .3706195     3.04   0.002     1.242112    2.734144
+                             |
+            num_gunsOwnedCat |
+                   2-4 guns  |   .7466238    .145372    -1.50   0.134     .5095992    1.093893
+             5 or more guns  |   .4783506   .1042448    -3.38   0.001     .3119551    .7335007
+                             |
+                   gunCourse |   2.054962   .3002686     4.93   0.000     1.542847    2.737063
+               familyDiscuss |   1.394711   .2036088     2.28   0.023     1.047409    1.857173
+                 homeDefense |   .6971178    .096121    -2.62   0.009     .5319136    .9136319
+                             |
+           region_categories |
+               Mid-Atlantic  |    .548299   .2471706    -1.33   0.183     .2264528    1.327569
+         East-North Central  |   .5034049   .2159957    -1.60   0.110     .2169632    1.168016
+         West-North Central  |   .5868434   .2688787    -1.16   0.245     .2388873    1.441622
+             South Atlantic  |    .450643   .1929695    -1.86   0.063     .1945513    1.043833
+         East-South Central  |   .3560168   .1663128    -2.21   0.027     .1423964    .8901068
+         West-South Central  |   .5051979   .2119163    -1.63   0.104     .2218741    1.150314
+                   Mountain  |   .5755609   .2686797    -1.18   0.237      .230359    1.438061
+                    Pacific  |    .914795   .4029267    -0.20   0.840     .3855604    2.170477
+                             |
+             age_4categories |
+                      30-44  |   1.097804   .2706506     0.38   0.705     .6768536    1.780552
+                      45-59  |   1.359804   .3459984     1.21   0.227     .8254834    2.239979
+                        60+  |   .9527282   .2559056    -0.18   0.857      .562525    1.613601
+                             |
+        education_categories |
+                High school  |   1.446881   .4173508     1.28   0.201     .8216724    2.547809
+               Some college  |   1.176642   .3389336     0.56   0.572     .6687262    2.070332
+Bachelor's degree or higher  |   1.494572   .4492865     1.34   0.182     .8287438    2.695337
+                             |
+              marital_status |
+                    Widowed  |   1.136376   .3831604     0.38   0.705     .5865094    2.201755
+                   Divorced  |   1.109056   .2624935     0.44   0.662     .6971409    1.764358
+                  Separated  |   .7943517   .5453193    -0.34   0.737     .2066217    3.053865
+              Never married  |   1.215669   .2881868     0.82   0.410     .7635896      1.9354
+        Living with partner  |   1.328954   .4819809     0.78   0.433      .652439     2.70695
+                             |
+                      income |
+          50,000 to $99,999  |   1.126785    .198919     0.68   0.499     .7969779    1.593072
+           $100,000 or more  |   1.110624   .2245547     0.52   0.604     .7469987    1.651255
+                             |
+              race_ethnicity |
+        Black, Non-Hispanic  |   1.055177   .3399871     0.17   0.868      .560829    1.985272
+        Other, Non-Hispanic  |    .759539   .3271529    -0.64   0.523     .3262932     1.76804
+                   Hispanic  |   .8882785   .2250623    -0.47   0.640     .5403809    1.460153
+     2+ Races, Non-Hispanic  |   .9995526   .3554764    -0.00   0.999     .4975469    2.008063
+                             |
+                      gender |
+                     Female  |   1.266851   .1928306     1.55   0.120     .9398388    1.707646
+                             |
+              MSA_categories |
+                      Metro  |   .8163706   .1401585    -1.18   0.238     .5829432    1.143269
+                     mil_vet |   .8322728   .1407803    -1.09   0.278     .5972591    1.159761
+                       _cons |   1.018687   .5785104     0.03   0.974     .3343792    3.103432
+----------------------------------------------------------------------------------------------
+
+. 
+.  
+. 
+. log close
+      name:  <unnamed>
+       log:  C:\Users\ckercher\Desktop\data project\safe storage output.log
+  log type:  text
+ closed on:   8 Aug 2018, 15:03:35
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
